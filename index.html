@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>John Doe Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>John Doe</h1>
-        <p>Web Developer</p>
+        <div class="hero">
+            <h1>John Doe</h1>
+            <p>Passionate Web Developer</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
     </header>
 
     <nav>
@@ -23,30 +27,40 @@
     <div class="container">
         <section id="about">
             <h2>About Me</h2>
-            <p>I'm a passionate web developer with experience in HTML, CSS, and JavaScript. I love creating responsive and user-friendly websites.</p>
+            <p>I specialize in creating user-friendly, responsive websites with modern technologies like HTML, CSS, and JavaScript. Let’s build something great together!</p>
         </section>
 
         <section id="projects">
             <h2>My Projects</h2>
             <div class="project">
-                <h3>Project 1</h3>
-                <p>A responsive website for a local business.</p>
+                <h3>Responsive Website</h3>
+                <p>A modern website built for a local business to enhance their online presence.</p>
             </div>
             <div class="project">
-                <h3>Project 2</h3>
-                <p>An interactive JavaScript game.</p>
+                <h3>Interactive Game</h3>
+                <p>A fun and engaging game developed with JavaScript and HTML5 Canvas.</p>
             </div>
         </section>
 
         <section id="contact">
             <h2>Contact Me</h2>
-            <p>Email: john.doe@example.com</p>
-            <p>Phone: (123) 456-7890</p>
+            <form action="#" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit" class="btn">Send Message</button>
+            </form>
         </section>
     </div>
 
     <footer>
-        <p>&copy; 2023 John Doe. All rights reserved.</p>
+        <p>&copy; 2023 John Doe | <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a> | <a href="https://github.com/" target="_blank">GitHub</a></p>
     </footer>
 </body>
 </html>
