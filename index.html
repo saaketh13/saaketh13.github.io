@@ -1,0 +1,145 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saaketh Raghava</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <a href="#home" class="logo">Saaketh Raghava</a>
+          <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#timeline">Timeline</a>
+            <a href="#projects">Projects</a>
+            <a href="#publications">Publications</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <button id="dark-mode-toggle" aria-label="Toggle Dark Mode">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="5"/>
+              <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+            </svg>
+          </button>
+        </nav>
+    </header>
+      
+
+  <main>
+    <section id="home" class="intro">
+      <div class="intro-content">
+        <p>Saaketh Raghava is a passionate programmer and researcher interested in AI safety, robustness quantification, and creative technologies.</p>
+      </div>
+    </section>
+
+    <!-- Update your timeline HTML structure -->
+    <section id="timeline">
+        <h2>Timeline</h2>
+        <div class="timeline">
+        <div class="timeline-item">
+            <div class="date">2025</div>
+            <div class="content">Present Day</div>
+        </div>
+        
+        <div class="timeline-item">
+            <div class="date">November 2024</div>
+            <div class="content">Research paper published in UC Merced Undergraduate Research</div>
+        </div>
+        
+        <div class="timeline-item">
+            <div class="date">October 2024</div>
+            <div class="content">Released Coffi</div>
+        </div>
+        
+        <div class="timeline-item">
+            <div class="date">Summer 2024</div>
+            <div class="content">Joined Professor Ayush Pandey's Research Lab working on Safety guarantees and robustness quantification of generative AI models</div>
+        </div>
+        
+        <div class="timeline-item">
+            <div class="date">Summer 2023</div>
+            <div class="content">Started at UC Merced</div>
+        </div>
+        </div>
+    </section>
+  
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/projects/Coffi.png" alt="Screenshot of Coffi application">
+            <div class="overlay">
+              <h3>Coffi</h3>
+              <p>California Bills summarization application</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img src="images/projects/Lumina.png" alt="Visualization of Lumina">
+            <div class="overlay">
+              <h3>Lumina</h3>
+              <p>Mini-LLM implementation in C++</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <div class="publication-card">
+        <h3>Classification of Hallucinations in Large Language Models Using a Novel Weighted Metric</h3>
+        <p>Supported by UC CITRIS and the Banatao Research Institute</p>
+        <a href="https://escholarship.org/uc/item/4w0620r1" class="read-more">Read Paper</a>
+      </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+  </main>
+
+  <footer>
+    <head>
+        <!-- Your existing head content -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+      
+    <div class="social-icons">
+      <a href="https://github.com/saaketh13" target="_blank" rel="noopener" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/saaketh-raghava" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+    <p>&copy; 2025 Saaketh Raghava</p>
+  </footer>
+</body>
+</html>
+
+
+<script src="script.js" defer></script>
